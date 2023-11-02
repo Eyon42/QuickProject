@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-light
+    scrollbar-thin scrollbar-thumb-rounded-sm
+    scrollbar-thumb-secondary scrollbar-track-dark/50
+}
+
+h1{
+  @apply  font-bold
+}
+h2{
+  @apply  font-bold
+}
+
+.pb-text-shadow {
+  text-shadow: 0 0 3px #202533, 0 0 5px #202533;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+
+@layer components {
+  .img-anim {
+    @apply duration-300 hover:scale-105 hover:opacity-95 transition-all;
+  }
+
+  .button {
+    @apply bg-primary rounded-md px-8 py-3 text-background1 text-2xl w-fit h-fit uppercase font-bold hover:opacity-95 hover:ring-4 ring-primary ring-opacity-50 transition-all hover:scale-105
+  }
+}

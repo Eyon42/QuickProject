@@ -1,0 +1,11 @@
+{
+  "header": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "etc": "Etc."
+  },
+  "home": {
+    "title": "We do <highlight>thing</highlight>",
+    "cta": "Free Demo"
+  }
+}

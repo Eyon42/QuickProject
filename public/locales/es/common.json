@@ -1,0 +1,11 @@
+{
+  "header": {
+    "home": "Inicio",
+    "pricing": "Precios",
+    "etc": "Etc."
+  },
+  "home": {
+    "title": "Hacemos <highlight>cosa</highlight>",
+    "cta": "Demo Gratis"
+  }
+}
